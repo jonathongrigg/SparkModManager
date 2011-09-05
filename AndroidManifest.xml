@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1"
+	android:versionName="Beta 1" package="com.jonathongrigg.apps.spark">
+
+	<uses-sdk
+		android:minSdkVersion="9"
+		android:targetSdkVersion="13" />
+
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name"
+		android:hardwareAccelerated="true">
+		
+		<activity
+			android:name="MainActivity" 
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Spark">
+
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

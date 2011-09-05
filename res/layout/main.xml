@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout android:layout_height="match_parent" android:id="@+id/relativeLayout1" android:layout_width="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="match_parent" android:layout_alignParentLeft="true" android:text="@string/text_chechbox_message"></TextView>
+        <CheckBox android:id="@+id/checkBox1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:text="@string/checkbox_touchkey_dimmer" android:checked="true"></CheckBox>
+        <CheckBox android:id="@+id/checkBox2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/checkBox1" android:layout_alignParentLeft="true" android:text="@string/checkbox_touch_wake" android:checked="true"></CheckBox>
+        <CheckBox android:id="@+id/checkBox3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/checkBox2" android:layout_alignParentLeft="true" android:text="@string/checkbox_screen_dimmer" android:checked="false"></CheckBox>
+        <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_below="@+id/checkBox3" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:text="@string/button_apply"></Button>
+    </RelativeLayout>
+</LinearLayout>
